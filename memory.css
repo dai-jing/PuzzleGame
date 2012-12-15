@@ -1,0 +1,72 @@
+@font-face {
+	font-family: myfont;
+	src: url('GoodDog.otf');
+}
+
+@font-face {
+	font-family: records_font;
+	src: url('SourceSansPro-Regular.otf');
+}
+
+body {
+	background-image: url('images/bg.jpg');
+}
+
+#game_title {
+	font-family: myfont;
+	font-weight: bold;
+	font-size: 35px;
+	color: blue;
+	position: absolute;
+	left: 380px;
+}
+
+#game_div {
+	position: absolute;
+	float: left;
+	top: 100px;
+	left: 5%;
+	width: 50%;
+}
+
+#nav_div {
+	position: absolute;
+	top: 120px;
+	left: 950px;
+	width: 25%;
+}
+
+#records_div {
+	position: absolute;
+	left: 25px;
+	width: 307px;
+	height: 203px;
+	background: url('images/records.png');
+}
+
+#records_title {
+	font-family: myfont;
+	font-size: 25px;
+	font-weight: bold;
+	color: blue;
+}
+
+.records_category {
+	font-family: records_font;
+	font-size: 15px;
+	color: blue;
+}
+
+#game_table {
+	position: absolute;
+}
+
+.game_image {
+	/* Chrome and Safari */
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition: all 1s;
+	
+	/* Firefox */
+	-moz-transform-style: preserve-3d;
+	-moz-transition: all 1s;
+}
