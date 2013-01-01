@@ -12,9 +12,9 @@ if (isset($_GET["userName"])  && isset($_GET["password"]) ){
 function makeSqlConnection()
 {
 $DB_HostName = "localhost";
-$DB_Name = "applenin_puzzlegame";
-$DB_User = "applenin_daijing";
-$DB_Pass = "kobe8188337";
+$DB_Name = "name";
+$DB_User = "user";
+$DB_Pass = "password";
 
 	$con = mysql_connect($DB_HostName,$DB_User,$DB_Pass) or die(mysql_error()); 
 
